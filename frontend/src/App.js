@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import { Bars3Icon, XCircleIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 import logo from "./images/logoWhite.png";
 import ig from "./images/IG-logo.svg";
 import fb from "./images/FB-logo.svg";
 
 function App() {
   const [time, setTime] = React.useState({});
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
   const milestone = new Date(2023, 11, 25, 0, 0, 0);
   const tick = () => {
     setTime({
@@ -106,7 +106,7 @@ function App() {
           <div className="flex-1 flex flex-row flex-nowrap items-center ml-3 gap-4">
             <div
               className="border-2 border-gray-700 flex justify-center items-center p-1"
-              onClick={() => setOpen(true)}
+              // onClick={() => setOpen(true)}
             >
               <Bars3Icon className="h-7 w-7 cursor-pointer text-pink-700" />
             </div>
