@@ -1,20 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poltawski+Nowy&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@keyframes leftToRight {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes rightToLeft {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}

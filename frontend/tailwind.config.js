@@ -6,9 +6,9 @@ module.exports = {
       backgroundImage: {
         "coming-soon": "url('/src/images/coming-soon.jpg')",
       },
-      animation: {
-        leftToRight: "leftToRight 1s linear once",
-        rightToLeft: "rightToLeft 1s linear once",
+      fontFamily: {
+        Poltawski: ["Poltawski Nowy", "serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
